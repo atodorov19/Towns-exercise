@@ -24,6 +24,7 @@ function deleteTown() {
     else
         showMessage(townName + " not found.");
 }
+
 function showMessage(msg) {
     $('#result').text(msg).css("display", "block");
     setTimeout(function () {
